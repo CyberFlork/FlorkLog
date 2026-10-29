@@ -21,11 +21,3 @@ A lightweight CLI tool built in Python for fast security log analysis and keywor
 - Python 3.x (Não requer nenhuma biblioteca externa, utiliza apenas módulos padrão do Python como `sys` e `os`).
 
 ---
-
-## ⚙️ Como Usar
-
-Clone o repositório e execute o script pelo seu terminal:
-
-```bash
-git clone [https://github.com/seu-usuario/florklog.git](https://github.com/seu-usuario/florklog.git)
-cd florklog
