@@ -1,6 +1,3 @@
-# FlorkLog
-A lightweight CLI tool built in Python for fast security log analysis and keyword searching.
-
 # 🛡️ FlorkLog
 
 > Uma ferramenta de linha de comando (CLI) leve, rápida e simples desenvolvida em Python para analistas de cibersegurança buscarem, filtrarem e analisarem arquivos de log com eficiência.
