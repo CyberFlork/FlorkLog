@@ -1,10 +1,10 @@
-# 🛡️ FlorkLog
+#  FlorkLog
 
 > Uma ferramenta de linha de comando (CLI) leve, rápida e simples desenvolvida em Python para analistas de cibersegurança buscarem, filtrarem e analisarem arquivos de log com eficiência.
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - **Busca Rápida via CLI:** Analise rapidamente arquivos de log grandes (como logs do VirtualBox, logs de autenticação do sistema, servidores web, etc.) diretamente pelo seu terminal.
 - **Filtro Inteligente:** Ignora diferenças entre letras maiúsculas e minúsculas (*case-insensitive*) para garantir que você não perca nenhum evento crítico.
@@ -13,20 +13,26 @@
 
 ---
 
-## 📋 Requisitos
+##  Requisitos
 
 - Python 3.x (Não requer nenhuma biblioteca externa, utiliza apenas módulos padrão do Python como `sys` e `os`).
 
 ---
 
-##Exemplos:
+##  Exemplos de Uso
 
- - python florklog.py log.txt erro
- - python florklog.py "C:\Logs\servidor.log" failed
-  
----
-##Atalhos de ajuda:
+```bash
+# Busca simples por um termo em um log no diretório atual
+python florklog.py log.txt erro
 
-  python florklog.py help   -> Mostra este menu de ajuda
-  
+# Busca utilizando caminhos absolutos com espaços ou caracteres especiais
+python florklog.py "C:\Logs\servidor.log" failed
+```
+
 ---
+
+##  Atalhos de Ajuda
+
+```bash
+python florklog.py help   # Mostra o menu de ajuda completo no terminal
+```
