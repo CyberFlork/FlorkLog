@@ -21,8 +21,8 @@
 
 ##Exemplos:
 
-  python florklog.py log.txt erro
-  python florklog.py "C:\Logs\servidor.log" failed
+ - python florklog.py log.txt erro
+ - python florklog.py "C:\Logs\servidor.log" failed
   
 ---
 ##Atalhos de ajuda:
