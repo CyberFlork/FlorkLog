@@ -12,7 +12,7 @@ def exibir_banner():
     print("        [ Ferramenta de Análise de Logs para Cibersegurança ]\n")
 
 def exibir_ajuda():
-    print("--- 📚 GUIA DE AJUDA DO FLORKLOG ---")
+    print("--- GUIA DE AJUDA DO FLORKLOG ---")
     print("Como usar no terminal:")
     print("  python florklog.py <caminho_do_arquivo> <palavra_chave>")
     print("\nExemplos:")
