@@ -18,9 +18,15 @@
 - Python 3.x (Não requer nenhuma biblioteca externa, utiliza apenas módulos padrão do Python como `sys` e `os`).
 
 ---
+
 ##Exemplos:
+
   python florklog.py log.txt erro
   python florklog.py "C:\Logs\servidor.log" failed
-
+  
+---
 ##Atalhos de ajuda:
+
   python florklog.py help   -> Mostra este menu de ajuda
+  
+---
